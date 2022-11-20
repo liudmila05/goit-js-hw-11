@@ -3,12 +3,6 @@ import Notiflix from 'notiflix';
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
-import axios from "axios";
-axios.get('/users')
-  .then(res => {
-    console.log(res.data);
-  });
-
 const input = document.querySelector('.search-form-input');
 const btnSearch = document.querySelector('.search-form-button');
 const gallery = document.querySelector('.gallery');
